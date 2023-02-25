@@ -1,6 +1,10 @@
-# Recommendation-System-Hahow-User-Course-Prediction
-![1](https://user-images.githubusercontent.com/69178839/221357423-18ab7489-a34b-4b1b-b6a2-d1721120e586.png)
-![1](https://user-images.githubusercontent.com/69178839/221357414-60c58e0b-4c93-46bc-a7c9-e4b6b7219d83.png)
+# Recommendation System: Hahow Course/Topic Prediction
+[\[2022 ADL Final Hahow Seen User Course Prediction\]](https://www.kaggle.com/competitions/2022-adl-final-hahow-seen-user-course-prediction)  
+[\[2022 ADL Final Hahow Unseen User Course Prediction\]](https://www.kaggle.com/competitions/2022-adl-final-hahow-unseen-user-course-prediction)  
+[\[2022 ADL Final Hahow Seen User Topic Prediction\]](https://www.kaggle.com/competitions/2022-adl-final-hahow-seen-user-topic-prediction)  
+[\[2022 ADL Final Hahow Unseen User Topic Prediction\]](https://www.kaggle.com/competitions/2022-adl-final-hahow-unseen-user-topic-prediction)  
+![Rank Image](https://user-images.githubusercontent.com/69178839/221357423-18ab7489-a34b-4b1b-b6a2-d1721120e586.png)
+![Rank Image](https://user-images.githubusercontent.com/69178839/221357414-60c58e0b-4c93-46bc-a7c9-e4b6b7219d83.png)
 
 ## Content-Based Method
 * 首先，先準備好`data`資料夾(裡面包含原始的users.csv、courses.csv、train.csv、val_seen.csv、val_unseen.csv、subgroups.csv等資料)、`content_embeding`資料夾(
