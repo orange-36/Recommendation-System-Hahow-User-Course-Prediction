@@ -13,11 +13,11 @@
     pip install -r content_based_requirements.txt
     ```
 * 接著執行recommend_course_by_content.py，其參數如下:
-    1.test的檔案，裡面每列包含受推薦的user_id
-    2.output prediction檔案的路徑名稱，以.csv結尾
-    3.任務名稱1，為`"Course"`或是`"Topic"`
-    4.任務名稱2，為`"Seen"`或是`"Unseen"`
-    5.實作推薦課程的方式(選填)，為`"Both_UserSim_and_CourseSim"`或是`"Only_CourseSim"`，預設為`"Both_UserSim_and_CourseSim"`。
+  1. test的檔案，裡面每列包含受推薦的user_id
+  2. output prediction檔案的路徑名稱，以.csv結尾
+  3. 任務名稱1，為`"Course"`或是`"Topic"`
+  4. 任務名稱2，為`"Seen"`或是`"Unseen"`
+  5. 實作推薦課程的方式(選填)，為`"Both_UserSim_and_CourseSim"`或是`"Only_CourseSim"`，預設為`"Both_UserSim_and_CourseSim"`。
     `"Both_UserSim_and_CourseSim"`代表利用和使用者相似的使用者以及課程相似度來推薦；`"Only_CourseSim"`代表只運用過去課程的相似課程來推薦。
     Seen Coures、Unseen Course、Unseen Topic這三個任務使用`"Both_UserSim_and_CourseSim"`會有最好的成績；而Seen Topic則是`"Only_CourseSim"`
     ```bash=
